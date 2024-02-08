@@ -94,8 +94,9 @@ h3 {
 }
 
 .media {
+    display: flex;
     width: 94%;
-    margin: 0 3%;
+    margin: 0 auto;
 }
 
 .compact {
@@ -107,4 +108,16 @@ h3 {
     margin: 0 20px 0 0;
     border-radius: 50%;
     float: inline-start;
+}
+
+@media (max-width: 560px) {
+    #profile-image {
+        display: flex;
+        margin: 0 auto 10px;
+        float: none;
+    }
+
+    #profile-table {
+        margin: 0 auto;
+    }
 }

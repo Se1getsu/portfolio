@@ -94,8 +94,9 @@ h3 {
 }
 
 .media {
+    display: flex;
     width: 94%;
-    margin: 0 3%;
+    margin: 0 auto;
 }
 
 .compact {

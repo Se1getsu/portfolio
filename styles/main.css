@@ -69,13 +69,16 @@ h3 {
 }
 
 .listing li {
-    display: flex;
-    align-items: center;
-    gap: 0 10px;
-    padding: .2em;
+    position: relative;
+    padding-left: 1.2em;
+    margin-bottom: 5px;
 }
 
 .listing li::before {
+    position: absolute;
+    top: 0.45em;
+    left: 0;
+    display: inline-block;
     transform: rotate(-45deg);
     max-width: .4em;
     min-width: .4em;

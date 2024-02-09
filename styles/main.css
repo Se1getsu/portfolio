@@ -112,7 +112,9 @@ h3 {
 @media (max-width: 560px) {
     #profile-image {
         display: flex;
+        width: 176px;
         margin: 0 auto 10px;
+        border-radius: 50%;
         float: none;
     }
 
